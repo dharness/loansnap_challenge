@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.app-left {
+  height: 100%;
+  overflow: scroll;
+}
+
+.app-left, .app-right {
+  width: 50%;
+}
